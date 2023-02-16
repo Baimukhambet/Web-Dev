@@ -1,0 +1,1 @@
+let planet = 'Earth', visitor = 'Mike'

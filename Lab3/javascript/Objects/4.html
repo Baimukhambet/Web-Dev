@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<script>
+    function multiplyNumeric(menu){
+        for(let attr in menu){
+            if(typeof menu[attr] == "number"){
+                menu[attr] = menu[attr] * 2;
+            }
+        }
+
+    }
+
+
+    // before the call
+    let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+    };
+
+    multiplyNumeric(menu);
+
+    // after the call
+    menu = {
+    width: 400,
+    height: 600,
+    title: "My menu"
+    };
+</script>

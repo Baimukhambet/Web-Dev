@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<script>
+    function makeUser() {
+  return {
+    name: "John",
+    ref: this
+  };
+}
+
+let user = makeUser();
+
+alert( user.ref.name ); // What's the result?
+//ref should be a function that returns a reference to the object itself
+
+//right version
+function makeUser(){
+    return{
+        name: "John",
+        ref(){return this;}
+    };
+}
+</script>
