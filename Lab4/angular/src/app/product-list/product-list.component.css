@@ -1,0 +1,43 @@
+.product-el{
+    width:200px;
+    display: inline-grid;
+    margin:50px;
+    text-align: center;
+    outline: 2px solid rgba(83, 118, 219, 0.62);
+    outline-offset: 20px;
+}
+
+img{
+    width:200px;
+    height:200px;
+    object-fit: scale-down;
+    margin-bottom: 30px;
+}
+
+h3{
+    height:60px;
+    font-size:24px;
+}
+
+.info-el{
+    margin-top:100px;
+}
+
+.rating-el{
+    color:yellow;
+}
+
+.kaspi{
+    margin-left:12px;
+    color:white;
+    background-color: rgba(241,70,52,255);
+}
+
+button{
+    border-radius: 4px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

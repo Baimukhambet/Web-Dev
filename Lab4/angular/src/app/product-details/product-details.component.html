@@ -1,0 +1,12 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product" id="main">
+    <img src = {{product.image}} >
+    <div id="name"><h3>{{ product.name }}</h3></div>
+    <div id="price">Цена: <h4>{{ product.price }}</h4></div>
+    <div id="descr"> <p>Описание: {{ product.description }}</p></div>
+
+    <a href = {{product.link}}>
+        <button type="button">Kaspi.kz</button>
+    </a>
+</div>

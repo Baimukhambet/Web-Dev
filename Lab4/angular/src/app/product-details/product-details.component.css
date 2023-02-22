@@ -1,0 +1,44 @@
+#main{
+    align-items: center;
+}
+
+
+img{
+    margin:20px;
+}
+
+#name{
+    width:400px;
+}
+
+h3{
+    font-weight: 600;
+}
+
+#price{
+    font-size:26px;
+}
+
+#price h4{
+    display: inline-block;
+}
+
+#descr{
+    width:800px;
+}
+
+#descr p{
+    font-size:20px;
+}
+
+button{
+    color:white;
+    background-color: rgba(241,70,52,255);
+    border-radius: 4px;
+}
+
+img{
+    width:400px;
+    height:300px;
+    object-fit: scale-down;
+}

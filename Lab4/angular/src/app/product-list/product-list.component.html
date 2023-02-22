@@ -1,0 +1,39 @@
+<h2>Products</h2>
+<div *ngFor = "let product of products" class = "product-el" >
+  <img src={{product.image}} alt="photo" width="200px">
+
+  <h3>
+    <a class="name-el"
+      [title]="product.name + ' details'"
+      [routerLink]="['/products',product.id]">
+      <span id = "product">{{ product.name }}</span>
+    </a>
+  </h3>
+  <div class="info-el">
+  <p>
+    <b>Цена:</b> {{product.price}}тг
+    <br>
+    <b>Рейтинг:</b> <ngb-rating [max]="5" class="rating-el"></ngb-rating>
+  </p>
+  <a href = "https://t.me/share/url?url={{product.link}}">
+    <button type="button">
+      Share
+    </button>
+  </a>
+    <a href = {{product.link}}>
+      <button type="button" class="kaspi">
+        Kaspi.kz
+      </button>
+    </a>
+  </div>
+  <app-product-alerts
+    [product]="product">
+  </app-product-alerts>
+
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
