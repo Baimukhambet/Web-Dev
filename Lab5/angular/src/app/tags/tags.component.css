@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+
+}
+
+.container a{
+    display: flex;
+    width:16rem;
+    height:20rem;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid rgb(47, 230, 181);
+    border-radius: 1rem;
+    margin:0.4rem;
+}
+
+span{
+    display:inline-block;
+}
+
+img{
+    height:14rem;
+    object-fit: scale-down;
+}
