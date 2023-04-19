@@ -1,0 +1,12 @@
+<div class = "container">
+  <h1>{{vacancies[0].company}}'s vacancies</h1>
+  <div class="vacancy-list">
+    <div class="vacancy" *ngFor="let vacancy of vacancies">
+      <a href=""><span id="name">{{vacancy.name}}</span></a> <br>
+      <div class="info">
+        <div class="desc"><b>Description:</b> {{vacancy.description}}</div> <br>
+        <b>Salary:</b> {{vacancy.salary}} tenge
+      </div>
+    </div>
+  </div>
+</div>

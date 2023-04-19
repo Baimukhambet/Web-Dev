@@ -1,0 +1,51 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 210, 220);
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+.vacancy-list{
+  margin:2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.vacancy{
+  margin:1.4rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0.6rem;
+}
+
+h1{
+  align-self: center;
+  font-family: Monaco;
+}
+
+
+#name{
+  font-weight: bold;
+  font-size:1.4rem;
+  color: rgb(14, 78, 89);
+  font-family: courier;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  font-family: courier;
+  font-size:1rem;
+  width:18rem;
+}
+
+.desc {
+  width:fit-content;
+}
